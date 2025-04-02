@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800;900&display=swap');
+@import "nullstyle.scss";
+
+//ОБЩИЕ СТИЛИ
+body{
+    font-family: "Poppins", serif;
+    margin: 0 auto;
+}
+//
+
+.header{
+    background: #ffffffec;
+    color: #22202E;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    padding: 0 30px;
+
+    &__title{
+        font-size: 24px;
+        padding: 30px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name{
+        font-weight: 600;
+    }
+}
+.navigation{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+
+    &__item a{
+        color: #726E8D;
+        font-size: 16px;
+        margin: 0 15px;
+    }
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    background: #2A254B;
+    &__wrapper{
+        padding: 30px 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info, &__info a{
+        font-size: 16px;
+        color: #808080;
+    }
+    &__iconbox i{
+        font-size: 20px;
+        margin: 0 10px;
+    }
+}
+.window{
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__wrapper{
+        border: 2px solid #2a254b2c;
+        border-radius: 20px;
+        padding: 30px 60px;
+    }
+    &__title{
+        text-align: center;
+        color: #2A254B;
+        font-size: 24px;
+    }
+}
+.form{
+    margin: 30px 0 0 0;
+    &__item label{
+        font-size: 18px;
+    }
+    &__item input{
+        width: 400px;
+        font-size: 16px;
+        padding: 5px 10px;
+        margin: 15px 0;
+        border: 2px solid #2a254b2c;
+        border-radius: 20px;
+    }
+    &__button{
+        color: #FFF;
+        background: #2A254B;
+        border-radius: 5px;
+        font-size: 18px;
+        width: 100%;
+        margin: 30px auto 0 auto;
+        padding: 10px 15px;
+    }
+}

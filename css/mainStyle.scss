@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800;900&display=swap');
+@import "nullstyle.scss";
+
+//ОБЩИЕ СТИЛИ
+body{
+    font-family: "Poppins", serif;
+    //padding: 0 30px;
+    margin: 0 auto;
+}
+//
+
+.header{
+    background: #ffffffec;
+    color: #22202E;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    padding: 0 30px;
+
+    &__title{
+        font-size: 24px;
+        padding: 30px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name{
+        font-weight: 600;
+    }
+}
+
+.navigation{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+
+    &__item a{
+        color: #726E8D;
+        font-size: 16px;
+        margin: 0 15px;
+    }
+}
+
+.banner{
+    margin: 60px 60px;
+
+    &__content{
+        width: 100%;
+        display: flex;
+    }
+
+    &__left-side{
+        background: #2A254B;
+        padding: 60px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__name{
+        font-size: 32px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 140%;
+        margin: 0 0 60px 0;
+    }
+    &__button{
+        font-size: 16px;
+        color: #fff;
+        padding: 16px 32px;
+        background: #f9f9f921;
+    }
+
+    &__text{
+        font-size: 18px;
+        line-height: 150%;
+        color: #ffffffaf;
+    }
+}
+
+.advantages{
+    &__wrapper{
+        padding: 0 60px;
+    }
+    &__title{
+        padding: 30px 0;
+        margin: 0 0 40px 0;
+        font-weight: 600;
+        color: #2A254B;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__blocks{
+        display: flex;
+        color: #2A254B;
+    }
+}
+
+.aItem{
+    width: 25%;
+    font-size: 18px;
+    margin: 15px 30px;
+
+    &__title{
+        font-size: 24px;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+}
+
+.products{
+    padding: 60px 90px;
+    &__title{
+        font-size: 30px;
+        color: #2A254B;
+        font-weight: 600;
+        padding: 0 0 50px 0;
+        margin: 50px 0 0 0;
+    }
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+
+    &__item img{
+        max-height: 375px;
+    }
+
+    &__title{
+        margin: 15px 0;
+        font-size: 20px;
+        color: #0000008c;
+    }
+
+    &__price{
+        color: #000;
+    }
+}
+
+.signup{
+    &__wrapper{
+        width: 100%;
+        padding: 120px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title{
+        font-size: 36px;
+        font-weight: 600;
+        color: #2A254B;
+    }
+    &__text{
+        margin: 30px 0 60px 0;
+        text-align: center;
+        font-size: 20px;
+        color: #0000008c;
+        font-weight: 600;
+        line-height: 140%;
+    }
+    &__button{
+        font-size: 16px;
+        color: #ffffffd0;
+        padding: 15px 30px;
+        background: #2A254B;
+    }
+    &__subbutton{
+        margin: 15px 0 0 0;
+        font-size: 16px;
+        color: #0000009a;
+        padding: 15px 30px;
+        border: 1px solid #0000004d;
+    }
+}
+
+.about{
+    &__wrapper{
+        display: flex;
+        padding: 0 60px;
+    }
+    &__left-side{
+        margin: 0 100px 0 0;
+    }
+    &__title{
+        color: #2A254B;
+        font-size: 32px;
+        font-weight: 600;
+        margin: 0 0 30px 0;
+    }
+    &__text{
+        font-size: 20px;
+        color: #0000008c;
+        font-weight: 600;
+        line-height: 140%;
+    }
+}
+
+.footer{
+    padding: 0;
+    background: #2A254B;
+    &__wrapper{
+        padding: 30px 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info, &__info a{
+        font-size: 16px;
+        color: #808080;
+    }
+    &__iconbox i{
+        font-size: 20px;
+        margin: 0 10px;
+    }
+}

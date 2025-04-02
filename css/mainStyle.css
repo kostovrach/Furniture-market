@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Poppins", serif;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.9254901961);
+  color: #22202E;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  padding: 0 30px;
+}
+.header__title {
+  font-size: 24px;
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+.header__name {
+  font-weight: 600;
+}
+
+.navigation {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.navigation__item a {
+  color: #726E8D;
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+.banner {
+  margin: 60px 60px;
+}
+.banner__content {
+  width: 100%;
+  display: flex;
+}
+.banner__left-side {
+  background: #2A254B;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner__name {
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 140%;
+  margin: 0 0 60px 0;
+}
+.banner__button {
+  font-size: 16px;
+  color: #fff;
+  padding: 16px 32px;
+  background: rgba(249, 249, 249, 0.1294117647);
+}
+.banner__text {
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.6862745098);
+}
+
+.advantages__wrapper {
+  padding: 0 60px;
+}
+.advantages__title {
+  padding: 30px 0;
+  margin: 0 0 40px 0;
+  font-weight: 600;
+  color: #2A254B;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.advantages__blocks {
+  display: flex;
+  color: #2A254B;
+}
+
+.aItem {
+  width: 25%;
+  font-size: 18px;
+  margin: 15px 30px;
+}
+.aItem__title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.products {
+  padding: 60px 90px;
+}
+.products__title {
+  font-size: 30px;
+  color: #2A254B;
+  font-weight: 600;
+  padding: 0 0 50px 0;
+  margin: 50px 0 0 0;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+.card__item img {
+  max-height: 375px;
+}
+.card__title {
+  margin: 15px 0;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5490196078);
+}
+.card__price {
+  color: #000;
+}
+
+.signup__wrapper {
+  width: 100%;
+  padding: 120px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signup__title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #2A254B;
+}
+.signup__text {
+  margin: 30px 0 60px 0;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5490196078);
+  font-weight: 600;
+  line-height: 140%;
+}
+.signup__button {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8156862745);
+  padding: 15px 30px;
+  background: #2A254B;
+}
+.signup__subbutton {
+  margin: 15px 0 0 0;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6039215686);
+  padding: 15px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.3019607843);
+}
+
+.about__wrapper {
+  display: flex;
+  padding: 0 60px;
+}
+.about__left-side {
+  margin: 0 100px 0 0;
+}
+.about__title {
+  color: #2A254B;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 30px 0;
+}
+.about__text {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5490196078);
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.footer {
+  padding: 0;
+  background: #2A254B;
+}
+.footer__wrapper {
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__info, .footer__info a {
+  font-size: 16px;
+  color: #808080;
+}
+.footer__iconbox i {
+  font-size: 20px;
+  margin: 0 10px;
+}

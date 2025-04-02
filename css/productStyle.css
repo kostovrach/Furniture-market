@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Poppins", serif;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.9254901961);
+  color: #22202E;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  padding: 0 30px;
+}
+.header__title {
+  font-size: 24px;
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+.header__name {
+  font-weight: 600;
+}
+
+.navigation {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.navigation__item a {
+  color: #726E8D;
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+.product__wrapper {
+  display: flex;
+}
+.product__discription {
+  padding: 90px 60px 0 100px;
+  color: #2A254B;
+}
+.product__title {
+  font-size: 36px;
+}
+.product__price {
+  font-size: 24px;
+  margin: 15px 0 60px 0;
+}
+.product__dTitle {
+  font-size: 20px;
+  color: rgba(70, 70, 70, 0.7803921569);
+}
+.product__dText, .product__dPoints {
+  font-size: 18px;
+  margin: 15px 0 20px 0;
+  line-height: 120%;
+}
+.product__ttc {
+  margin: 75px 0 100px 0;
+}
+.product__Tttc {
+  font-size: 20px;
+  color: rgba(70, 70, 70, 0.7803921569);
+}
+.product__table td {
+  font-size: 18px;
+  padding: 10px 5px;
+}
+.product__button {
+  color: #FFF;
+  background: #2A254B;
+  padding: 16px 32px;
+}
+
+.recomend {
+  padding: 60px 90px;
+}
+.recomend__title {
+  font-size: 30px;
+  color: #2A254B;
+  font-weight: 600;
+  padding: 0 0 50px 0;
+  margin: 50px 0 0 0;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+.card__item img {
+  max-height: 375px;
+}
+.card__title {
+  margin: 15px 0;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5490196078);
+}
+.card__price {
+  color: #000;
+}
+
+.signup__wrapper {
+  width: 100%;
+  padding: 120px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signup__title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #2A254B;
+}
+.signup__text {
+  margin: 30px 0 60px 0;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5490196078);
+  font-weight: 600;
+  line-height: 140%;
+}
+.signup__button {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8156862745);
+  padding: 15px 30px;
+  background: #2A254B;
+}
+.signup__subbutton {
+  margin: 15px 0 0 0;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6039215686);
+  padding: 15px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.3019607843);
+}
+
+.footer {
+  padding: 0;
+  background: #2A254B;
+}
+.footer__wrapper {
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__info, .footer__info a {
+  font-size: 16px;
+  color: #808080;
+}
+.footer__iconbox i {
+  font-size: 20px;
+  margin: 0 10px;
+}
